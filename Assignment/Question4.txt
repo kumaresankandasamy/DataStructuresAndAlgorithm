@@ -1,0 +1,9 @@
+Space Complexity of Merge Sort
+
+stack space = O(log2 n)
+
+Extra Array space = n
+
+Total Space = (n + log2 n)
+            
+			= O(n)
