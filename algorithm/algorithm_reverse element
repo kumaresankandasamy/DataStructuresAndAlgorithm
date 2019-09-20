@@ -1,0 +1,12 @@
+Reverse the element
+
+
+> Reverse the element O(1) time, if internally using stack as a linked list.
+
+> Reverse stack would require to reverse a linked list 
+
+> Time Complexity : O(n)
+
+> space complextity : O(1)
+
+Here push(),pop() take O(1)

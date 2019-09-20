@@ -1,0 +1,24 @@
+    Circular linked list 
+	
+	linked list are circular if it is not terminated by null all the nodes are connected in the form of cycle.
+	
+	last node will have it is next point to the head of the list.
+	
+	//Implementation
+	
+	boolean circular(Node node){
+	Node first = node, second = node;
+	while(first != null && first.getLink() != null && second.getLink != null && second.getLink.getLink != null){
+	
+	   first = first.getLink();
+	   second = second.getLink.getLink();
+	   if(first.hasCode() == second.hasCode()){
+	   return true;
+	   }
+	   return false;
+	}
+	}
+	
+
+
+ Time Complexity = O(n)
