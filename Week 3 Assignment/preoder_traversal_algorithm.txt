@@ -1,0 +1,10 @@
+Pre-order traversal
+
+- create stack
+- print root 
+- push stack to left node(root = root.left)
+- if root is null stack is empty return 1
+- else pop node to right side(root = root.right)
+
+time complexity - O(n)
+ 

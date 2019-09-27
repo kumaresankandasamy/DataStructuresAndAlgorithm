@@ -1,0 +1,32 @@
+Time Complexity of Merge Sort
+
+T(n) = {c, if n = 1
+        2T(n/2) + c' n ; if n > 1
+		
+
+T(n) = 2{2T(n/4) +  c'(n/2)}+c'n
+     
+	 = 4T(n/4) + 2c'n
+	 
+	 = 4{2T(n/8) + c'(n/4)}+2c'n
+	 
+	 = 8T(n/8) + 3c'n
+	 
+	 = 16T(n/16) + 4c'n
+	 
+	 
+	 = 2^k T(n/2^k) + k c'n
+	 
+	 = 2^log2 n T(1) + log2 n c'n
+	 
+	 = n c + c' nlog n
+	 
+T(n)	 = O(nlog n)
+	 
+	 
+Note:
+   n = log2 n
+   T(1) = 1
+	                              
+	 
+	 
