@@ -1,0 +1,8 @@
+LCA - binary search tree
+
+- start will the root node
+- if root > n1 and root > n2  lca left node
+- else if root < n1 and root < n2 lca reigth node
+- else both condition false, then return lca root 
+
+time complexity - O(h)

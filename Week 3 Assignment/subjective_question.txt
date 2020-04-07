@@ -1,0 +1,7 @@
+Binary Tree 
+  
+ - Average case of Time Complexity - O(log n)
+
+ - Worst case of Time Complexity - O(h)
+
+ 
